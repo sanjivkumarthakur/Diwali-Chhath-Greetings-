@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#070817">
+<meta name="description" content="Warm Diwali and Chhath greetings from Sanjiv Kumar Thakur.">
+<title>Diwali × Chhath — A Celebration of Light</title>
+<style>
+:root{--bg:#070817;--panel:rgba(16,22,48,.72);--line:rgba(133,177,255,.23);--cyan:#70eaff;--gold:#ffd77d;--orange:#ff9b58;--pink:#ff83c7;--white:#f5f7ff;--muted:#b7c1df}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% -10%,#24285d 0,#0b1027 42%,var(--bg) 78%);color:var(--white);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background-image:linear-gradient(rgba(112,234,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(112,234,255,.035) 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(to bottom,black,transparent 85%)}
+a{color:inherit}.wrap{width:min(1100px,96%);margin-inline:auto}.topbar{display:flex;align-items:center;justify-content:space-between;padding:20px 0;font-size:11px;letter-spacing:1px;color:var(--muted)}.header-tools{display:flex;align-items:center;gap:9px;flex-wrap:wrap;justify-content:flex-end}.language-label{font-size:11px;letter-spacing:0;text-transform:none}.language-select,#languageSelect{background:#101630;color:#f5f7ff;border:1px solid var(--line);border-radius:9px;padding:9px 11px;font:inherit;letter-spacing:0;cursor:pointer}.logo{color:var(--cyan);font-weight:800}.pill{border:1px solid var(--line);border-radius:99px;padding:8px 12px;background:#ffffff08}
+.hero{min-height:88vh;display:grid;place-items:center;text-align:center;position:relative;padding:70px 0 80px;isolation:isolate}.hero:before,.hero:after{content:"";position:absolute;width:300px;height:300px;border-radius:50%;filter:blur(70px);z-index:-1;opacity:.22}.hero:before{background:var(--cyan);left:-100px;top:15%}.hero:after{background:var(--orange);right:-90px;bottom:8%}
+.kicker{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--cyan)}h1{font-size:clamp(44px,8vw,92px);line-height:.98;letter-spacing:-3px;margin:22px 0 18px;font-weight:800;background:linear-gradient(100deg,#fff 10%,var(--cyan) 45%,var(--gold) 85%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 0 45px #70eaff20}.hero p{max-width:720px;margin:0 auto 28px;color:#d5def6;font-size:clamp(15px,2.1vw,19px);line-height:1.8}.hero .subhi{font-size:clamp(18px,3vw,26px);color:var(--gold);letter-spacing:1px}.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.btn{border:1px solid #70eaff88;background:linear-gradient(120deg,#4bd9e8,#a5f5ff);color:#06121f;padding:13px 20px;border-radius:12px;font-weight:800;font-size:12px;letter-spacing:.7px;text-transform:uppercase;cursor:pointer;box-shadow:0 0 25px #70eaff22;transition:.2s}.btn:hover{transform:translateY(-2px);box-shadow:0 0 32px #70eaff55}.btn.alt{background:#ffffff08;color:var(--white);border-color:var(--line);box-shadow:none}.btn.gold{background:linear-gradient(120deg,#ff9b58,#ffdf91);border:0;color:#241020}.orb{position:absolute;border:1px solid #70eaff55;border-radius:50%;width:210px;height:210px;right:5%;top:15%;animation:spin 24s linear infinite;opacity:.45}.orb:before,.orb:after{content:"";position:absolute;inset:25px;border:1px dashed #ffd77d88;border-radius:50%}.orb:after{inset:55px;border-color:#ff83c788}@keyframes spin{to{transform:rotate(360deg)}}
+.section{padding:68px 0}.section-head{text-align:center;margin-bottom:30px}.section-head h2{font-size:clamp(29px,5vw,48px);margin:12px 0;color:#f5f7ff;letter-spacing:-1px}.section-head p{max-width:690px;margin:auto;color:var(--muted);line-height:1.7;font-size:14px}.eyebrow{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--cyan)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}.card,.glass{background:linear-gradient(145deg,rgba(25,34,70,.78),rgba(12,17,39,.72));border:1px solid var(--line);border-radius:20px;padding:23px;backdrop-filter:blur(14px);box-shadow:0 15px 55px #0002}.card .icon{font-size:32px}.card h3{font-size:19px;margin:12px 0 8px;color:var(--gold)}.card p{font-size:13px;line-height:1.7;color:var(--muted);margin:0}.festival-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.festival-card{position:relative;overflow:hidden;min-height:230px}.festival-card.di{border-color:#ffb85a66}.festival-card.ch{border-color:#70eaff66}.festival-card h3{font-size:26px}.festival-card .big{font-size:42px}.divider{height:1px;background:linear-gradient(90deg,transparent,var(--line),transparent)}
+.gift-stage{display:grid;place-items:center;padding:15px}.gift{width:150px;height:130px;position:relative;cursor:pointer;filter:drop-shadow(0 15px 25px #0008);transition:.3s;outline:none}.gift:hover{transform:translateY(-5px)}.gift-base{position:absolute;bottom:0;left:10px;width:130px;height:85px;border-radius:8px;background:linear-gradient(90deg,#5e3cba,#bd5acb,#5e3cba);border:1px solid #ffffff55}.gift-lid{position:absolute;top:29px;left:0;width:150px;height:27px;border-radius:7px;background:linear-gradient(90deg,#e7a84c,#fff0a9,#e7a84c);transition:.6s;transform-origin:left bottom;z-index:2}.gift-ribbon{position:absolute;left:64px;bottom:0;width:24px;height:85px;background:linear-gradient(90deg,#ffe8a5,#fff8d9,#e5ad4f);z-index:1}.gift-bow{position:absolute;top:4px;left:49px;width:52px;height:34px;border:9px solid var(--gold);border-radius:50%;z-index:3}.gift.open .gift-lid{transform:translate(-35px,-55px) rotate(-25deg)}.reveal-message{max-width:700px;margin:20px auto 0;text-align:center;padding:24px;border:1px solid #ffd77d55;border-radius:18px;background:#ffd77d0a}.reveal-message p{font-size:clamp(17px,2.5vw,23px);line-height:1.7;color:#fff0cc}
+.form-row{display:flex;gap:10px}.field{width:100%;padding:13px 14px;background:#080d21;border:1px solid var(--line);border-radius:11px;color:white;font:14px inherit;outline:none;margin:6px 0}.field:focus{border-color:var(--cyan);box-shadow:0 0 0 3px #70eaff12}textarea.field{min-height:105px;resize:vertical}.personal-output{font-size:18px;line-height:1.7;color:var(--gold);margin-top:16px;min-height:25px}
+.memory-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:15px}.memory{aspect-ratio:1/1;border:1px dashed #70eaff66;border-radius:14px;overflow:hidden;display:grid;place-items:center;color:var(--muted);font-size:12px;text-align:center;background:#ffffff06}.memory img{width:100%;height:100%;object-fit:cover}
+.wall{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:18px}.note{padding:18px;border-radius:14px;background:linear-gradient(135deg,#fff0c9,#ffc98d);color:#30203a;min-height:110px;box-shadow:0 8px 20px #0003;transform:rotate(-.7deg)}.note:nth-child(even){transform:rotate(.8deg);background:linear-gradient(135deg,#d7faff,#a9dff1)}.note p{margin:0 0 12px;line-height:1.5}.note small{font-weight:700}
+.share-panel{text-align:center;max-width:650px;margin:auto}.qr{width:190px;height:190px;display:block;margin:15px auto;background:#fff;padding:8px;border-radius:12px}.muted{font-size:12px;color:var(--muted);line-height:1.6}.signature{color:var(--gold);font-size:20px}.footer{text-align:center;padding:45px 0 65px;color:var(--muted);font-size:12px}.footer .spark{font-size:28px;color:var(--gold);margin-bottom:10px}
+#intro{position:fixed;inset:0;z-index:20;background:radial-gradient(circle at center,#202b62,#070817 70%);display:grid;place-items:center;text-align:center;padding:25px;transition:opacity .9s,visibility .9s}#intro.hide{opacity:0;visibility:hidden}.intro-inner{max-width:560px}.intro-logo{font-size:42px;filter:drop-shadow(0 0 18px #70eaff88);animation:pulse 2s infinite}.intro-inner h2{font-size:clamp(32px,6vw,56px);line-height:1.05;color:var(--gold);font-weight:800}.intro-inner p{color:var(--muted);line-height:1.7}@keyframes pulse{50%{transform:scale(1.08);filter:drop-shadow(0 0 28px #ffd77d)}}.spark{position:fixed;pointer-events:none;z-index:15;animation:rise 4.5s linear forwards;color:var(--gold)}@keyframes rise{from{transform:translateY(0) scale(.5);opacity:0}15%{opacity:1}to{transform:translateY(-105vh) scale(1.2);opacity:0}}
+.reveal{opacity:0;transform:translateY(20px);transition:.7s}.reveal.show{opacity:1;transform:none}
+@media(max-width:650px){.wrap{width:calc(100% - 24px)}.topbar{font-size:9px}.hero{min-height:80vh;padding:55px 0}.orb{width:130px;height:130px;right:-35px;top:10%}.festival-grid{grid-template-columns:1fr}.section{padding:52px 0}.form-row{display:block}h1{letter-spacing:-1.5px}.card,.glass{padding:19px}}
+</style>
+</head>
+<body>
+<div id="intro"><div class="intro-inner"><div class="intro-logo">✧ 🪔 ✧</div><div class="eyebrow">A digital greeting from Sanjiv Kumar Thakur</div><h2>One Light.<br>Many Blessings.</h2><p>A little festive gift for friends, family, and everyone who makes life beautiful.</p><button class="btn" id="enterBtn">Enter the Celebration ✨</button></div></div>
+<header class="wrap topbar"><div class="logo">✦ Sanjiv Kumar Thakur</div><div class="header-tools"><div class="pill" id="festivalLabel">दीपावली × छठ पर्व</div><label class="language-label" for="languageSelect">Language</label><select id="languageSelect" aria-label="Choose your language"><option value="en" selected>English</option><option value="ne">नेपाली</option><option value="ko">한국어</option><option value="hi">हिन्दी</option><option value="bho">भोजपुरी</option></select></div></header>
+<main>
+<section class="hero wrap"><div class="orb"></div><div style="position:relative;z-index:1"><div class="kicker">दूरी जति भए पनि, शुभकामना सधैँ नजिक</div><div class="subhi">शुभ दीपावली • छठ पर्वको हार्दिक शुभकामना</div><h1>हरेक मनमा<br>उज्यालो छाओस्।</h1><p>हरेक दीपको उज्यालोले तपाईंको घर आँगन झलमल्ल बनाओस्। छठी मैया र सूर्यदेवको कृपाले तपाईं तथा तपाईंको परिवारमा सुख, शान्ति, सुस्वास्थ्य, समृद्धि र आशा छाओस्। तपाईं जहाँ हुनुहुन्छ, यो सानो उत्सव तपाईंहरू सबैका लागि हो।</p><div class="actions"><button class="btn" onclick="document.querySelector('#blessings').scrollIntoView()">शुभकामना हेर्नुहोस्</button><button class="btn alt" id="musicBtn">♫ मधुर धुन बजाउनुहोस्</button></div></div></section>
+<div class="divider wrap"></div>
+<section class="section wrap reveal" id="blessings"><div class="section-head"><div class="eyebrow">दुई पर्व • एउटै आत्मीय शुभेच्छा</div><h2>उज्यालो र कृतज्ञताको उत्सव</h2><p>परम्परा फरक भए पनि भावना एउटै — सबैको जीवनमा सुख, स्वास्थ्य र समृद्धिको कामना।</p></div><div class="festival-grid">
+<article class="card festival-card di"><div class="big">🪔✨</div><h3>शुभ दीपावली</h3><p>हरेक दीपले अन्धकार हटाओस्, हरेक प्रार्थनाले आशा जगाओस् र हरेक घर प्रेम, हाँसो तथा समृद्धिले भरियोस्। तपाईं र तपाईंको परिवारमा दीपावलीको हार्दिक मंगलमय शुभकामना!</p></article>
+<article class="card festival-card ch"><div class="big">🌅🙏</div><h3>छठ पूजा की शुभकामनाएँ</h3><p>छठी मैया र सूर्यदेवले तपाईंको परिवारलाई सुस्वास्थ्य, शान्ति, शक्ति र समृद्धिको आशीर्वाद प्रदान गरून्। तपाईंको आस्था र भक्तिले जीवनमा सुख तथा कल्याण ल्याओस्।</p></article>
+</div></section>
+<section class="section wrap reveal"><div class="section-head"><div class="eyebrow">हरेक जीवनका लागि थोरै उज्यालो</div><h2>तपाईंसँगै रहने शुभकामना</h2><p>यी मंगलमय शुभकामना तपाईं जहाँ भए पनि तपाईंमाझ पुगून्।</p></div><div class="grid">
+<div class="card"><div class="icon">🌟</div><h3>आशा</h3><p>हरेक बिहानीले नयाँ साहस र नयाँ सम्भावना लिएर आओस्।</p></div>
+<div class="card"><div class="icon">💛</div><h3>सुस्वास्थ्य</h3><p>तपाईं र तपाईंका प्रियजन सधैँ स्वस्थ, सबल र निरोगी रहनुहोस्।</p></div>
+<div class="card"><div class="icon">🌾</div><h3>समृद्धि</h3><p>तपाईंको मेहनत सफलतामा परिणत होस् र जीवन समृद्ध बनोस्।</p></div>
+<div class="card"><div class="icon">🕊️</div><h3>शान्ति</h3><p>तपाईंको घर परिवारमा सद्भाव, दया र प्रेम सधैँ रहिरहोस्।</p></div>
+</div></section>
+<section class="section wrap reveal"><div class="section-head"><div class="eyebrow">एउटा रमाइलो सरप्राइज तपाईंलाई पर्खिरहेको छ</div><h2>आफ्नो उपहार खोल्नुहोस्</h2><p>उपहारको बाकसमा थिच्नुहोस् र आफ्नो लागि विशेष शुभकामना पाउनुहोस्।</p></div><div class="gift-stage"><div class="gift" id="gift" role="button" tabindex="0" aria-label="विशेष उपहार खोल्नुहोस्"><div class="gift-bow"></div><div class="gift-lid"></div><div class="gift-base"></div><div class="gift-ribbon"></div></div></div><div class="reveal-message" id="giftMessage" hidden><p id="giftWish">यस पर्वको दिव्य उज्यालोले तपाईंको हरेक पाइला सही बाटोमा डोर्‍याओस्।</p><div class="eyebrow">आत्मीयता • कृतज्ञता • मायासहित</div></div></section>
+<section class="section wrap reveal"><div class="section-head"><div class="eyebrow">तपाईंका लागि व्यक्तिगत शुभकामना</div><h2>तपाईंको नाम, तपाईंको शुभेच्छा</h2><p>आफ्नो नाम लेख्नुहोस् र आफ्नो नामसहितको विशेष शुभकामना पाउनुहोस्।</p></div><div class="glass" style="max-width:650px;margin:auto;text-align:center"><input class="field" id="visitorName" placeholder="तपाईंको नाम (ऐच्छिक)" aria-label="तपाईंको नाम"><button class="btn gold" id="makeWish">मेरो शुभकामना तयार गर्नुहोस्</button><div class="personal-output" id="personalOutput" aria-live="polite"></div></div></section>
+<section class="section wrap reveal"><div class="section-head"><div class="eyebrow">सम्झनाका पलहरू सधैँ उज्याला रहून्</div><h2>तपाईंका तस्बिरका सम्झनाहरू</h2><p>आफ्नो मोबाइल वा कम्प्युटरबाट तस्बिर छान्नुहोस् र सानो सम्झना ग्यालरी हेर्नुहोस्। तस्बिर तपाईंको उपकरणमै रहनेछन्, कतै अपलोड हुने छैनन्।</p></div><div class="glass"><input class="field" type="file" id="photoInput" accept="image/*" multiple><div class="memory-grid" id="memoryGrid"><div class="memory">तपाईंले छानेका तस्बिर<br>यहाँ देखिनेछन् ✨</div></div></div></section>
+<section class="section wrap reveal"><div class="section-head"><div class="eyebrow">मायालु शब्द सबैलाई सुहाउँछन्</div><h2>शुभकामना सन्देश लेख्नुहोस्</h2><p>आशीर्वाद, सम्झना वा मिठो भावना यहाँ लेख्नुहोस्। अहिलेका लागि सन्देश यही ब्राउजरमा मात्र सुरक्षित हुन्छ। सबै आगन्तुकले देख्ने साझा सन्देश पाटी बनाउन अनलाइन डाटाबेस जोड्नुपर्छ।</p></div><div class="glass"><div class="form-row"><input class="field" id="noteName" placeholder="तपाईंको नाम (ऐच्छिक)"><input class="field" id="noteText" placeholder="छोटो शुभकामना सन्देश लेख्नुहोस्…"></div><button class="btn" id="postNote">मेरो सन्देश थप्नुहोस्</button><div class="wall" id="messageWall"></div></div></section>
+<section class="section wrap reveal"><div class="section-head"><div class="eyebrow">एउटै लिङ्क • धेरै मुस्कान</div><h2>यो खुसी सबैसँग बाँड्नुहोस्</h2><p>यो पेज आफ्ना साथीभाइ, परिवार, आफन्तजन र मनका प्रिय सबैलाई पठाउनुहोस्।</p></div><div class="glass share-panel"><div class="actions"><button class="btn" id="shareBtn">↗ शुभकामना पठाउनुहोस्</button><button class="btn alt" id="copyBtn">वेबसाइटको लिङ्क प्रतिलिपि गर्नुहोस्</button></div><img class="qr" id="qrCode" alt="यस वेबसाइटको क्यूआर कोड"><p class="muted" id="shareStatus">GitHub Pages मा प्रकाशित गरेपछि यस पेजको सार्वजनिक ठेगानाबाट QR कोड बन्नेछ।</p></div></section>
+</main>
+<footer class="wrap footer"><div class="spark">✦ ✧ 🪔 ✧ ✦</div><div class="signature">मायासहित, सञ्जीव कुमार ठाकुर</div><p>हरेक घर उज्यालो, आस्था र खुसीले भरिपूर्ण होस्।</p><p>सबैसँग बाँड्नका लागि • मायाले तयार गरिएको</p></footer>
+<script>
+const $=id=>document.getElementById(id);
+$('enterBtn').addEventListener('click',()=>{$('intro').classList.add('hide');launchSparkles();});
+function launchSparkles(){for(let i=0;i<22;i++){const s=document.createElement('span');s.className='spark';s.textContent=['✦','✧','♡','🪔'][i%4];s.style.left=Math.random()*100+'vw';s.style.bottom='-25px';s.style.fontSize=(12+Math.random()*18)+'px';s.style.animationDelay=(Math.random()*1.8)+'s';document.body.appendChild(s);setTimeout(()=>s.remove(),6500)}}
+function openGift(){const g=$('gift');g.classList.add('open');$('giftMessage').hidden=false;const list=window.currentBlessings||[];$('giftWish').textContent=list[Math.floor(Math.random()*list.length)]||'May your home be filled with light and happiness.';launchSparkles()}
+$('gift').addEventListener('click',openGift);$('gift').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openGift()}});
+$('makeWish').addEventListener('click',()=>{const t=languagePacks[window.currentLanguage||'ne'];const name=$('visitorName').value.trim()||t.dear;const wish=t.blessings[Math.floor(Math.random()*t.blessings.length)];$('personalOutput').textContent=window.currentLanguage==='en'?`${name}, ${t.wishPrefix}${wish} 🪔🌅`:window.currentLanguage==='ko'?`${name}, ${t.wishPrefix}${wish} 🪔🌅`:`${name}${t.wishPrefix}${wish} 🪔🌅`});
+$('photoInput').addEventListener('change',e=>{const grid=$('memoryGrid');grid.innerHTML='';[...e.target.files].slice(0,24).forEach(file=>{const url=URL.createObjectURL(file);const box=document.createElement('div');box.className='memory';const img=document.createElement('img');img.src=url;img.alt='तपाईंले छान्नुभएको पर्वको सम्झना';box.appendChild(img);grid.appendChild(box)})});
+function loadNotes(){let notes=[];try{notes=JSON.parse(localStorage.getItem('sanjivFestiveNotes')||'[]')}catch{}const wall=$('messageWall');wall.innerHTML='';notes.forEach(n=>{const card=document.createElement('article');card.className='note';const p=document.createElement('p');p.textContent=n.message;const small=document.createElement('small');small.textContent='— '+n.name;card.append(p,small);wall.appendChild(card)})}
+$('postNote').addEventListener('click',()=>{const message=$('noteText').value.trim();const name=$('noteName').value.trim()||'एक शुभेच्छुक';if(!message){$('noteText').focus();return}let notes=[];try{notes=JSON.parse(localStorage.getItem('sanjivFestiveNotes')||'[]')}catch{}notes.unshift({name,message});try{localStorage.setItem('sanjivFestiveNotes',JSON.stringify(notes.slice(0,30)))}catch{}$('noteText').value='';loadNotes()});loadNotes();
+// Gentle original ambient tones generated in-browser. No external song or copyrighted recording.
+let audio=null,oscillators=[],musicOn=false;
+function startMusic(){const Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;audio=new Ctx();const master=audio.createGain();master.gain.value=.025;master.connect(audio.destination);[174.61,220,261.63].forEach((freq,i)=>{const o=audio.createOscillator(),g=audio.createGain();o.type='sine';o.frequency.value=freq;g.gain.value=[.5,.25,.18][i];o.connect(g);g.connect(master);o.start();oscillators.push(o)});musicOn=true;$('musicBtn').textContent=(languagePacks[window.currentLanguage||'ne'].musicStop)}
+function stopMusic(){oscillators.forEach(o=>{try{o.stop()}catch{}});oscillators=[];if(audio){audio.close();audio=null}musicOn=false;$('musicBtn').textContent=(languagePacks[window.currentLanguage||'ne'].music)}
+$('musicBtn').addEventListener('click',()=>musicOn?stopMusic():startMusic());
+async function copyLink(){try{await navigator.clipboard.writeText(location.href);$('shareStatus').textContent='लिङ्क प्रतिलिपि भयो! अब WhatsApp, Facebook, Instagram वा अन्य च्याटमा पठाउनुहोस्।'}catch{$('shareStatus').textContent='यो पेज बाँड्न ब्राउजरको ठेगाना प्रतिलिपि गर्नुहोस्।'}}
+$('copyBtn').addEventListener('click',copyLink);
+$('shareBtn').addEventListener('click',async()=>{if(navigator.share){try{await navigator.share({title:document.title,text:languagePacks[window.currentLanguage||'ne'].shareStatus+' 🪔🌅',url:location.href})}catch(e){}}else copyLink()});
+function updateQR(){if(location.protocol==='http:'||location.protocol==='https:'){$('qrCode').src='https://api.qrserver.com/v1/create-qr-code/?size=190x190&data='+encodeURIComponent(location.href)}else{$('qrCode').alt='यो पेज अनलाइन प्रकाशित गरेपछि QR कोड देखिनेछ।'}}updateQR();
+
+// Five-language selector: English, Nepali, Korean, Hindi and Bhojpuri.
+const languagePacks = {
+  ne: {
+    title:'दीपावली × छठ पर्व — सबैका लागि उज्यालो', festival:'दीपावली × छठ पर्व', language:'भाषा',
+    introEyebrow:'सञ्जीव कुमार ठाकुरको तर्फबाट डिजिटल शुभकामना', introTitle:'एउटै उज्यालो।<br>अनेकौँ आशीर्वाद।', introText:'जीवनलाई सुन्दर बनाउने साथीभाइ, परिवार र आफन्तजनका लागि सानो उत्सवमय उपहार।', enter:'उत्सवमा प्रवेश गर्नुहोस् ✨',
+    kicker:'दूरी जति भए पनि, शुभकामना सधैँ नजिक', subhi:'शुभ दीपावली • छठ पर्वको हार्दिक शुभकामना', heroTitle:'हरेक मनमा<br>उज्यालो छाओस्।', heroText:'हरेक दीपको उज्यालोले तपाईंको घर आँगन झलमल्ल बनाओस्। छठी मैया र सूर्यदेवको कृपाले तपाईं तथा तपाईंको परिवारमा सुख, शान्ति, सुस्वास्थ्य, समृद्धि र आशा छाओस्। तपाईं जहाँ हुनुहुन्छ, यो सानो उत्सव तपाईंहरू सबैका लागि हो।',
+    explore:'शुभकामना हेर्नुहोस्', music:'♫ मधुर धुन बजाउनुहोस्', musicStop:'Ⅱ धुन बन्द गर्नुहोस्',
+    blessEyebrow:'दुई पर्व • एउटै आत्मीय शुभेच्छा', blessTitle:'उज्यालो र कृतज्ञताको उत्सव', blessText:'परम्परा फरक भए पनि भावना एउटै — सबैको जीवनमा सुख, स्वास्थ्य र समृद्धिको कामना।',
+    diwaliTitle:'शुभ दीपावली', diwaliText:'हरेक दीपले अन्धकार हटाओस्, हरेक प्रार्थनाले आशा जगाओस् र हरेक घर प्रेम, हाँसो तथा समृद्धिले भरियोस्। तपाईं र तपाईंको परिवारमा दीपावलीको हार्दिक मंगलमय शुभकामना!',
+    chhathTitle:'छठ पर्वको हार्दिक शुभकामना', chhathText:'छठी मैया र सूर्यदेवले तपाईंको परिवारलाई सुस्वास्थ्य, शान्ति, शक्ति र समृद्धिको आशीर्वाद प्रदान गरून्। तपाईंको आस्था र भक्तिले जीवनमा सुख तथा कल्याण ल्याओस्।',
+    wishesEyebrow:'हरेक जीवनका लागि थोरै उज्यालो', wishesTitle:'तपाईंसँगै रहने शुभकामना', wishesText:'यी मंगलमय शुभकामना तपाईं जहाँ भए पनि तपाईंमाझ पुगून्।',
+    hope:'आशा', hopeText:'हरेक बिहानीले नयाँ साहस र नयाँ सम्भावना लिएर आओस्।', health:'सुस्वास्थ्य', healthText:'तपाईं र तपाईंका प्रियजन सधैँ स्वस्थ, सबल र निरोगी रहनुहोस्।',
+    prosperity:'समृद्धि', prosperityText:'तपाईंको मेहनत सफलतामा परिणत होस् र जीवन समृद्ध बनोस्।', peace:'शान्ति', peaceText:'तपाईंको घर परिवारमा सद्भाव, दया र प्रेम सधैँ रहिरहोस्।',
+    giftEyebrow:'एउटा रमाइलो सरप्राइज तपाईंलाई पर्खिरहेको छ', giftTitle:'आफ्नो उपहार खोल्नुहोस्', giftText:'उपहारको बाकसमा थिच्नुहोस् र आफ्नो लागि विशेष शुभकामना पाउनुहोस्।', giftAlt:'विशेष उपहार खोल्नुहोस्', giftTag:'आत्मीयता • कृतज्ञता • मायासहित',
+    personalEyebrow:'तपाईंका लागि व्यक्तिगत शुभकामना', personalTitle:'तपाईंको नाम, तपाईंको शुभेच्छा', personalText:'आफ्नो नाम लेख्नुहोस् र आफ्नो नामसहितको विशेष शुभकामना पाउनुहोस्।', namePlaceholder:'तपाईंको नाम (ऐच्छिक)', makeWish:'मेरो शुभकामना तयार गर्नुहोस्',
+    photosEyebrow:'सम्झनाका पलहरू सधैँ उज्याला रहून्', photosTitle:'तपाईंका तस्बिरका सम्झनाहरू', photosText:'आफ्नो मोबाइल वा कम्प्युटरबाट तस्बिर छान्नुहोस् र सानो सम्झना ग्यालरी हेर्नुहोस्। तस्बिर तपाईंको उपकरणमै रहनेछन्, कतै अपलोड हुने छैनन्।', photoEmpty:'तपाईंले छानेका तस्बिर<br>यहाँ देखिनेछन् ✨',
+    wallEyebrow:'मायालु शब्द सबैलाई सुहाउँछन्', wallTitle:'शुभकामना सन्देश लेख्नुहोस्', wallText:'आशीर्वाद, सम्झना वा मिठो भावना यहाँ लेख्नुहोस्। अहिलेका लागि सन्देश यही ब्राउजरमा मात्र सुरक्षित हुन्छ। सबै आगन्तुकले देख्ने साझा सन्देश पाटी बनाउन अनलाइन डाटाबेस जोड्नुपर्छ।', noteName:'तपाईंको नाम (ऐच्छिक)', noteText:'छोटो शुभकामना सन्देश लेख्नुहोस्…', postNote:'मेरो सन्देश थप्नुहोस्',
+    shareEyebrow:'एउटै लिङ्क • धेरै मुस्कान', shareTitle:'यो खुसी सबैसँग बाँड्नुहोस्', shareText:'यो पेज आफ्ना साथीभाइ, परिवार, आफन्तजन र मनका प्रिय सबैलाई पठाउनुहोस्।', share:'↗ शुभकामना पठाउनुहोस्', copy:'वेबसाइटको लिङ्क प्रतिलिपि गर्नुहोस्', qr:'GitHub Pages मा प्रकाशित गरेपछि यस पेजको सार्वजनिक ठेगानाबाट QR कोड बन्नेछ।',
+    signature:'मायासहित, सञ्जीव कुमार ठाकुर', footer1:'हरेक घर उज्यालो, आस्था र खुसीले भरिपूर्ण होस्।', footer2:'सबैसँग बाँड्नका लागि • मायाले तयार गरिएको',
+    blessings:['हरेक दीपको उज्यालोले तपाईंको मनमा न्यानोपन र घरमा समृद्धि ल्याओस्।','छठी मैया र सूर्यदेवले तपाईंलाई सुस्वास्थ्य, शान्ति र खुसीको आशीर्वाद प्रदान गरून्।','यो पर्वले तपाईंका दिन कृतज्ञताले, घर खुसीले र भविष्य आशाले भरिदियोस्।','हरेक प्रार्थनाले शक्ति, हरेक सूर्योदयले अवसर र हरेक साँझले शान्ति ल्याओस्।','उज्यालोले हरेक चुनौतीलाई जितोस् र प्रेमले सधैँ तपाईंको घरमा बास गरोस्।'],
+    wishPrefix:'ज्यू, तपाईं र तपाईंको परिवारमा दीपावली तथा छठ पर्वको हार्दिक मंगलमय शुभकामना! ', dear:'प्रिय साथी', friend:'एक शुभेच्छुक', shareStatus:'लिङ्क प्रतिलिपि भयो! अब आफ्ना साथीभाइ र आफन्तलाई पठाउनुहोस्।'
+  },
+  en: {
+    title:'Diwali × Chhath — A Celebration of Light', festival:'DIWALI × CHHATH', language:'Language',
+    introEyebrow:'A festive greeting from Sanjiv Kumar Thakur', introTitle:'One light.<br>Many blessings.', introText:'A little festive gift for friends, family, and everyone who makes life beautiful.', enter:'Enter the celebration ✨',
+    kicker:'Even across distance, warm wishes bring us close', subhi:'Happy Diwali • Happy Chhath Puja', heroTitle:'MAY EVERY HEART<br>SHINE BRIGHT.', heroText:'May every diya brighten your home. May Chhathi Maiya and Surya Dev bless you and your family with happiness, peace, good health, prosperity, and hope. Wherever you are, this celebration is for you.',
+    explore:'Explore the wishes', music:'♫ Play gentle music', musicStop:'Ⅱ Stop music',
+    blessEyebrow:'Two festivals • one heartfelt wish', blessTitle:'A celebration of light and gratitude', blessText:'Different traditions, one beautiful feeling — wishing happiness, health, and prosperity for everyone.',
+    diwaliTitle:'Happy Diwali', diwaliText:'May every diya remove darkness, every prayer bring hope, and every home shine with love, laughter, and prosperity. Wishing you and your family a joyful Diwali!',
+    chhathTitle:'Happy Chhath Puja', chhathText:'May Chhathi Maiya and Surya Dev bless your family with good health, peace, strength, and prosperity. May your devotion bring happiness and well-being.',
+    wishesEyebrow:'A little light for every life', wishesTitle:'Wishes that stay with you', wishesText:'May these heartfelt blessings reach you wherever you are.',
+    hope:'Hope', hopeText:'May every sunrise bring fresh courage and new possibilities.', health:'Good health', healthText:'May you and your loved ones always enjoy strength and well-being.',
+    prosperity:'Prosperity', prosperityText:'May your hard work bloom into success and abundance.', peace:'Peace', peaceText:'May your home always be filled with harmony, kindness, and love.',
+    giftEyebrow:'A little surprise is waiting for you', giftTitle:'Open your festive gift', giftText:'Tap the gift box to reveal a special blessing chosen for you.', giftAlt:'Open your surprise gift', giftTag:'With warmth • gratitude • love',
+    personalEyebrow:'A greeting made personal', personalTitle:'Your name, your blessing', personalText:'Enter your name and receive a festive wish addressed to you.', namePlaceholder:'Your name (optional)', makeWish:'Create my personal wish',
+    photosEyebrow:'Keep the memories glowing', photosTitle:'Your photo memories', photosText:'Choose photos from your phone or computer to preview a memory gallery. Your photos stay on your device and are not uploaded.', photoEmpty:'Your selected photos<br>will appear here ✨',
+    wallEyebrow:'Kind words make the celebration brighter', wallTitle:'Leave a greeting message', wallText:'Share a blessing, memory, or kind thought. Messages are currently saved only in this browser. A shared wall for all visitors needs an online database.', noteName:'Your name (optional)', noteText:'Write a short festive wish…', postNote:'Post my message',
+    shareEyebrow:'One link • many smiles', shareTitle:'Share the celebration', shareText:'Send this page to your friends, family, relatives, and everyone close to your heart.', share:'↗ Share greeting', copy:'Copy website link', qr:'Your QR code will appear after this page is published on GitHub Pages.',
+    signature:'With love, Sanjiv Kumar Thakur', footer1:'May every home shine with light, devotion, and happiness.', footer2:'Made to be shared • created with love',
+    blessings:['May every diya bring warmth to your heart and prosperity to your home.','May Chhathi Maiya and Surya Dev bless you with health, peace, and happiness.','May this festive season fill your days with gratitude, your home with joy, and your future with hope.','May every prayer bring strength, every sunrise bring opportunity, and every evening bring peace.','May light overcome every challenge and may love always find its way to your home.'],
+    wishPrefix:'Wishing you and your family a very happy Diwali and blessed Chhath Puja! ', dear:'Dear friend', friend:'A well-wisher', shareStatus:'Link copied! Now send it to your friends and family.'
+  },
+  ko: {
+    title:'디왈리 × 차트 푸자 — 빛과 축복', festival:'디왈리 × 차트 푸자', language:'언어',
+    introEyebrow:'산지브 쿠마르 타쿠르가 전하는 축하 인사', introTitle:'하나의 빛.<br>수많은 축복.', introText:'소중한 친구와 가족, 사랑하는 모든 분들을 위한 작은 축제 선물입니다.', enter:'축제에 입장하기 ✨',
+    kicker:'멀리 있어도 마음은 가까이', subhi:'행복한 디왈리 • 행복한 차트 푸자', heroTitle:'모든 마음에<br>빛이 가득하길.', heroText:'등불의 빛이 여러분의 가정을 환하게 비추길 바랍니다. 차티 마이야와 수리야 데브의 축복으로 여러분과 가족에게 행복, 평화, 건강, 번영과 희망이 가득하길 바랍니다.',
+    explore:'축복 메시지 보기', music:'♫ 잔잔한 음악 재생', musicStop:'Ⅱ 음악 끄기',
+    blessEyebrow:'두 축제 • 하나의 따뜻한 마음', blessTitle:'빛과 감사의 축제', blessText:'전통은 달라도 마음은 하나 — 모두의 행복과 건강, 풍요를 기원합니다.',
+    diwaliTitle:'행복한 디왈리', diwaliText:'모든 등불이 어둠을 물리치고, 모든 기도가 희망을 주며, 모든 가정에 사랑과 웃음과 풍요가 가득하길 바랍니다.',
+    chhathTitle:'행복한 차트 푸자', chhathText:'차티 마이야와 수리야 데브가 여러분의 가족에게 건강과 평화, 힘과 번영을 내려주시길 바랍니다.',
+    wishesEyebrow:'모든 삶에 작은 빛을', wishesTitle:'여러분 곁에 머무는 축복', wishesText:'이 따뜻한 축복이 어디에 계시든 여러분에게 전해지길 바랍니다.',
+    hope:'희망', hopeText:'매일의 아침이 새로운 용기와 가능성을 가져오길 바랍니다.', health:'건강', healthText:'여러분과 사랑하는 사람들이 늘 건강하고 활기차길 바랍니다.',
+    prosperity:'번영', prosperityText:'여러분의 노력이 성공과 풍요로 피어나길 바랍니다.', peace:'평화', peaceText:'가정에 언제나 화목과 친절, 사랑이 가득하길 바랍니다.',
+    giftEyebrow:'작은 깜짝 선물이 기다리고 있어요', giftTitle:'축제 선물 열기', giftText:'선물 상자를 눌러 여러분을 위한 축복을 확인해 보세요.', giftAlt:'선물 열기', giftTag:'따뜻함 • 감사 • 사랑',
+    personalEyebrow:'나만을 위한 인사', personalTitle:'이름을 담은 축복', personalText:'이름을 입력하고 나만의 축제 인사를 받아보세요.', namePlaceholder:'이름 (선택 사항)', makeWish:'맞춤 축하 인사 만들기',
+    photosEyebrow:'소중한 순간을 간직하세요', photosTitle:'사진 추억 갤러리', photosText:'휴대전화나 컴퓨터에서 사진을 선택해 미리 보세요. 사진은 기기에만 저장되며 업로드되지 않습니다.', photoEmpty:'선택한 사진이<br>여기에 표시됩니다 ✨',
+    wallEyebrow:'따뜻한 말 한마디', wallTitle:'축하 메시지 남기기', wallText:'축복과 추억, 따뜻한 마음을 남겨주세요. 메시지는 현재 이 브라우저에만 저장됩니다. 모두가 함께 보는 게시판에는 온라인 데이터베이스가 필요합니다.', noteName:'이름 (선택 사항)', noteText:'짧은 축하 메시지를 입력하세요…', postNote:'메시지 남기기',
+    shareEyebrow:'하나의 링크 • 많은 미소', shareTitle:'축제를 함께 나누세요', shareText:'친구와 가족, 소중한 모든 분께 이 페이지를 보내세요.', share:'↗ 축하 인사 공유', copy:'웹사이트 링크 복사', qr:'GitHub Pages에 게시하면 QR 코드가 표시됩니다.',
+    signature:'사랑을 담아, 산지브 쿠마르 타쿠르', footer1:'모든 가정에 빛과 믿음, 행복이 가득하길 바랍니다.', footer2:'함께 나누기 위해 • 사랑으로 제작',
+    blessings:['등불의 빛이 마음을 따뜻하게 하고 가정에 번영을 가져오길 바랍니다.','차티 마이야와 수리야 데브가 건강과 평화, 행복을 축복하시길 바랍니다.','이번 축제가 감사와 기쁨, 희망으로 가득한 날들을 선물하길 바랍니다.','모든 기도가 힘을, 모든 아침이 기회를, 모든 저녁이 평화를 가져오길 바랍니다.','빛이 모든 어려움을 이기고 사랑이 늘 여러분의 가정에 머물길 바랍니다.'],
+    wishPrefix:'님, 여러분과 가족에게 행복한 디왈리와 차트 푸자가 되길 바랍니다! ', dear:'친구', friend:'축복을 전하는 사람', shareStatus:'링크가 복사되었습니다! 친구와 가족에게 보내세요.'
+  },
+  hi: {
+    title:'दीपावली × छठ — खुशियों का उजाला', festival:'दीपावली × छठ पूजा', language:'भाषा',
+    introEyebrow:'संजिव कुमार ठाकुर की ओर से शुभकामनाएँ', introTitle:'एक दीप।<br>अनेक आशीर्वाद।', introText:'दोस्तों, परिवार और सभी प्रियजनों के लिए एक छोटा-सा त्योहार का उपहार।', enter:'उत्सव में प्रवेश करें ✨',
+    kicker:'दूरी चाहे जितनी हो, शुभकामनाएँ दिलों को जोड़ती हैं', subhi:'शुभ दीपावली • छठ पूजा की हार्दिक शुभकामनाएँ', heroTitle:'हर दिल में<br>उजाला हो।', heroText:'हर दीपक की रोशनी आपके घर को जगमगाए। छठी मैया और सूर्य देव की कृपा से आपके और आपके परिवार के जीवन में सुख, शांति, अच्छा स्वास्थ्य, समृद्धि और आशा बनी रहे।',
+    explore:'शुभकामनाएँ देखें', music:'♫ मधुर संगीत चलाएँ', musicStop:'Ⅱ संगीत बंद करें',
+    blessEyebrow:'दो पर्व • एक दिल से निकली शुभकामना', blessTitle:'रोशनी और कृतज्ञता का उत्सव', blessText:'परंपराएँ अलग हो सकती हैं, लेकिन भावना एक है — सभी के जीवन में सुख, स्वास्थ्य और समृद्धि की कामना।',
+    diwaliTitle:'शुभ दीपावली', diwaliText:'हर दीप अंधकार दूर करे, हर प्रार्थना आशा जगाए और हर घर प्रेम, हँसी तथा समृद्धि से भर जाए। आपको और आपके परिवार को दीपावली की हार्दिक शुभकामनाएँ!',
+    chhathTitle:'छठ पूजा की हार्दिक शुभकामनाएँ', chhathText:'छठी मैया और सूर्य देव आपके परिवार को अच्छा स्वास्थ्य, शांति, शक्ति और समृद्धि प्रदान करें। आपकी भक्ति जीवन में सुख और कल्याण लाए।',
+    wishesEyebrow:'हर जीवन के लिए थोड़ी-सी रोशनी', wishesTitle:'आपके साथ रहने वाली शुभकामनाएँ', wishesText:'ये मंगलमय शुभकामनाएँ आप जहाँ भी हों, आप तक पहुँचें।',
+    hope:'आशा', hopeText:'हर सुबह नया साहस और नई संभावनाएँ लेकर आए।', health:'अच्छा स्वास्थ्य', healthText:'आप और आपके प्रियजन हमेशा स्वस्थ और प्रसन्न रहें।',
+    prosperity:'समृद्धि', prosperityText:'आपकी मेहनत सफलता और खुशहाली में बदले।', peace:'शांति', peaceText:'आपका घर हमेशा सद्भाव, दया और प्रेम से भरा रहे।',
+    giftEyebrow:'आपके लिए एक छोटा-सा सरप्राइज़', giftTitle:'अपना उपहार खोलें', giftText:'उपहार के डिब्बे पर टैप करें और अपने लिए खास आशीर्वाद पाएँ।', giftAlt:'खास उपहार खोलें', giftTag:'अपनापन • आभार • प्यार',
+    personalEyebrow:'आपके लिए व्यक्तिगत शुभकामना', personalTitle:'आपका नाम, आपकी शुभकामना', personalText:'अपना नाम लिखें और अपने नाम के साथ खास शुभकामना पाएँ।', namePlaceholder:'आपका नाम (वैकल्पिक)', makeWish:'मेरी शुभकामना बनाएँ',
+    photosEyebrow:'यादों के पल हमेशा रोशन रहें', photosTitle:'आपकी तस्वीरों की यादें', photosText:'अपने मोबाइल या कंप्यूटर से तस्वीरें चुनें। तस्वीरें आपके डिवाइस पर ही रहेंगी, अपलोड नहीं होंगी।', photoEmpty:'आपकी चुनी हुई तस्वीरें<br>यहाँ दिखाई देंगी ✨',
+    wallEyebrow:'प्यार भरे शब्द सबको अच्छे लगते हैं', wallTitle:'शुभकामना संदेश लिखें', wallText:'अपना आशीर्वाद, याद या प्यारा संदेश लिखें। अभी संदेश केवल इसी ब्राउज़र में सुरक्षित रहते हैं। सभी के लिए साझा संदेश-पट के लिए ऑनलाइन डेटाबेस चाहिए।', noteName:'आपका नाम (वैकल्पिक)', noteText:'छोटी-सी शुभकामना लिखें…', postNote:'मेरा संदेश जोड़ें',
+    shareEyebrow:'एक लिंक • ढेर सारी मुस्कान', shareTitle:'खुशियाँ सबके साथ बाँटें', shareText:'इस पेज को अपने दोस्तों, परिवार और सभी प्रियजनों को भेजें।', share:'↗ शुभकामना साझा करें', copy:'वेबसाइट लिंक कॉपी करें', qr:'GitHub Pages पर प्रकाशित करने के बाद QR कोड दिखाई देगा।',
+    signature:'स्नेह सहित, संजीव कुमार ठाकुर', footer1:'हर घर रोशनी, श्रद्धा और खुशियों से भरा रहे।', footer2:'सबके साथ बाँटने के लिए • प्यार से बनाया गया',
+    blessings:['हर दीपक की रोशनी आपके मन में गर्माहट और घर में समृद्धि लाए।','छठी मैया और सूर्य देव आपको स्वास्थ्य, शांति और खुशियों का आशीर्वाद दें।','यह त्योहार आपके दिनों को कृतज्ञता, घर को आनंद और भविष्य को आशा से भर दे।','हर प्रार्थना शक्ति, हर सूर्योदय अवसर और हर शाम शांति लेकर आए।','रोशनी हर चुनौती पर विजय पाए और प्रेम हमेशा आपके घर में बना रहे।'],
+    wishPrefix:'जी, आपको और आपके परिवार को दीपावली तथा छठ पूजा की हार्दिक शुभकामनाएँ! ', dear:'प्रिय मित्र', friend:'एक शुभचिंतक', shareStatus:'लिंक कॉपी हो गया! अब इसे दोस्तों और परिवार को भेजें।'
+  },
+  bho: {
+    title:'दीपावली × छठ — खुशियन के उजास', festival:'दीपावली × छठ पूजा', language:'भाषा',
+    introEyebrow:'सञ्जीव कुमार ठाकुर के ओर से नेह भरल शुभकामना', introTitle:'एके उजास।<br>ढेर सारा आशीर्वाद।', introText:'दोस्त, परिवार आ सभे अपना लोग खातिर एगो छोट उत्सवी भेंट।', enter:'उत्सव में चलीं ✨',
+    kicker:'दूरी चाहे जेतना होखे, नेह के शुभकामना दिल जोड़ेला', subhi:'शुभ दीपावली • छठ पूजा के हार्दिक शुभकामना', heroTitle:'हर दिल में<br>उजास भरल रहे।', heroText:'हर दीया के रोशनी रउरा घर-आँगन चमका देवे। छठी मइया आ सूरज देव के किरपा से रउरा आ रउरा परिवार के जीवन में सुख, शांति, निरोगी काया, खुशहाली आ आस बनल रहे।',
+    explore:'शुभकामना देखीं', music:'♫ मीठ धुन बजाईं', musicStop:'Ⅱ धुन बंद करीं',
+    blessEyebrow:'दू गो परब • एके नेह भरल कामना', blessTitle:'उजास आ आभार के परब', blessText:'रीति-रिवाज अलग हो सकेला, बाकिर भावना एके बा — सभकर जीवन में सुख, सेहत आ खुशहाली रहे।',
+    diwaliTitle:'शुभ दीपावली', diwaliText:'हर दीया अन्हार मिटावे, हर अरदास आस जगावे आ हर घर नेह, हँसी आ खुशहाली से भरल रहे। रउरा आ रउरा परिवार के दीपावली के ढेर सारा शुभकामना!',
+    chhathTitle:'छठ पूजा के हार्दिक शुभकामना', chhathText:'छठी मइया आ सूरज देव रउरा परिवार के सेहत, शांति, ताकत आ खुशहाली के आशीर्वाद दीहीं। रउरा भक्ति से जीवन में सुख-चैन आवे।',
+    wishesEyebrow:'हर जीवन खातिर तनिका उजास', wishesTitle:'रउरा संगे रहे वाली शुभकामना', wishesText:'ई नेह भरल आशीर्वाद रउरा जहाँ रहीं, उहाँ तक पहुँचे।',
+    hope:'आस', hopeText:'हर नया बिहान नया हिम्मत आ नया मौका लेके आवे।', health:'नीमन सेहत', healthText:'रउरा आ रउरा प्रिय लोग सदा स्वस्थ आ खुश रहो।',
+    prosperity:'खुशहाली', prosperityText:'रउरा मेहनत सफलता आ तरक्की में बदले।', peace:'शांति', peaceText:'रउरा घर-परिवार में प्रेम, मेल-मिलाप आ शांति बनल रहे।',
+    giftEyebrow:'रउरा खातिर एगो छोट सरप्राइज बा', giftTitle:'अपन उपहार खोलीं', giftText:'उपहार के डिब्बा पर दबाईं आ अपना खातिर खास आशीर्वाद पाईं।', giftAlt:'खास उपहार खोलीं', giftTag:'नेह • आभार • प्यार',
+    personalEyebrow:'रउरा खातिर खास शुभकामना', personalTitle:'रउरा नाम, रउरा शुभकामना', personalText:'अपन नाम लिखीं आ अपना नाम से खास शुभकामना पाईं।', namePlaceholder:'रउरा नाम (जरूरी नइखे)', makeWish:'हमार शुभकामना बनाईं',
+    photosEyebrow:'याद के पल हमेशा चमकत रहे', photosTitle:'रउरा फोटो के मीठ याद', photosText:'अपना मोबाइल भा कंप्यूटर से फोटो चुनीं। फोटो रउरा डिवाइस पर ही रही, कहीं अपलोड ना होई।', photoEmpty:'रउरा चुनल फोटो<br>इहाँ देखाई दी ✨',
+    wallEyebrow:'नेह भरल बात सभके नीक लागेला', wallTitle:'शुभकामना के संदेश लिखीं', wallText:'अपन आशीर्वाद, याद भा मीठ बात लिखीं। अभी संदेश खाली एह ब्राउजर में सेव होखेला। सभे लोग खातिर साझा संदेश-पट बनावे खातिर ऑनलाइन डेटाबेस जरूरी बा।', noteName:'रउरा नाम (जरूरी नइखे)', noteText:'छोट शुभकामना लिखीं…', postNote:'हमार संदेश जोड़ीं',
+    shareEyebrow:'एके लिंक • ढेर मुस्कान', shareTitle:'खुशी सभके संगे बाँटीं', shareText:'ई पेज अपना दोस्त, परिवार आ सभे प्रिय लोग के भेजीं।', share:'↗ शुभकामना भेजीं', copy:'वेबसाइट लिंक कॉपी करीं', qr:'GitHub Pages पर प्रकाशित भइला के बाद QR कोड देखाई।',
+    signature:'नेह सहित, सञ्जीव कुमार ठाकुर', footer1:'हर घर उजास, आस्था आ खुशी से भरल रहे।', footer2:'सभे संगे बाँटे खातिर • नेह से बनावल',
+    blessings:['हर दीया के उजास रउरा मन में गरमाहट आ घर में खुशहाली ले आवे।','छठी मइया आ सूरज देव रउरा के सेहत, शांति आ खुशी के आशीर्वाद दीहीं।','ई परब रउरा दिन में आभार, घर में आनंद आ भविष्य में आस भर देवे।','हर अरदास ताकत, हर बिहान मौका आ हर साँझ शांति ले आवे।','उजास हर परेशानी पर जीत पावे आ प्यार हमेशा रउरा घर में बनल रहे।'],
+    wishPrefix:'जी, रउरा आ रउरा परिवार के दीपावली आ छठ पूजा के ढेर सारा शुभकामना! ', dear:'प्यारे दोस्त', friend:'एक शुभचिंतक', shareStatus:'लिंक कॉपी हो गइल! अब अपना दोस्त आ परिवार के भेजीं।'
+  }
+};
+
+
+function setLanguage(code) {
+  const t = languagePacks[code] || languagePacks.ne;
+  document.documentElement.lang = code === 'bho' ? 'bho' : code;
+  document.title = t.title;
+  $('festivalLabel').textContent = t.festival;
+  document.querySelector('label[for="languageSelect"]').textContent = t.language;
+  $('intro').querySelector('.eyebrow').textContent = t.introEyebrow;
+  $('intro').querySelector('h2').innerHTML = t.introTitle;
+  $('intro').querySelector('p').textContent = t.introText;
+  $('enterBtn').textContent = t.enter;
+  document.querySelector('.kicker').textContent = t.kicker;
+  document.querySelector('.subhi').textContent = t.subhi;
+  document.querySelector('.hero h1').innerHTML = t.heroTitle;
+  document.querySelector('.hero p').textContent = t.heroText;
+  document.querySelector('.hero .actions .btn:first-child').textContent = t.explore;
+  $('musicBtn').textContent = musicOn ? t.musicStop : t.music;
+  const sections = document.querySelectorAll('main > .section');
+  const setSection = (index, eyebrow, title, desc) => {
+    const head = sections[index].querySelector('.section-head');
+    head.querySelector('.eyebrow').textContent = t[eyebrow];
+    head.querySelector('h2').textContent = t[title];
+    head.querySelector('p').textContent = t[desc];
+  };
+  setSection(0,'blessEyebrow','blessTitle','blessText');
+  sections[0].querySelector('.festival-card.di h3').textContent=t.diwaliTitle;
+  sections[0].querySelector('.festival-card.di p').textContent=t.diwaliText;
+  sections[0].querySelector('.festival-card.ch h3').textContent=t.chhathTitle;
+  sections[0].querySelector('.festival-card.ch p').textContent=t.chhathText;
+  setSection(1,'wishesEyebrow','wishesTitle','wishesText');
+  const cards=sections[1].querySelectorAll('.card');
+  [['hope','hopeText'],['health','healthText'],['prosperity','prosperityText'],['peace','peaceText']].forEach((keys,i)=>{cards[i].querySelector('h3').textContent=t[keys[0]];cards[i].querySelector('p').textContent=t[keys[1]]});
+  setSection(2,'giftEyebrow','giftTitle','giftText');
+  $('gift').setAttribute('aria-label',t.giftAlt);
+  sections[2].querySelector('.reveal-message .eyebrow').textContent=t.giftTag;
+  setSection(3,'personalEyebrow','personalTitle','personalText');
+  $('visitorName').placeholder=t.namePlaceholder;$('visitorName').setAttribute('aria-label',t.namePlaceholder);$('makeWish').textContent=t.makeWish;
+  setSection(4,'photosEyebrow','photosTitle','photosText');
+  $('memoryGrid').querySelector('.memory')?.replaceChildren(document.createTextNode(t.photoEmpty.split('<br>')[0]),document.createElement('br'),document.createTextNode(t.photoEmpty.split('<br>')[1].replace(' ✨','')),document.createTextNode(' ✨'));
+  setSection(5,'wallEyebrow','wallTitle','wallText');
+  $('noteName').placeholder=t.noteName;$('noteText').placeholder=t.noteText;$('postNote').textContent=t.postNote;
+  setSection(6,'shareEyebrow','shareTitle','shareText');
+  $('shareBtn').textContent=t.share;$('copyBtn').textContent=t.copy;
+  if (!window.__linkCopied) $('shareStatus').textContent=t.qr;
+  document.querySelector('.signature').textContent=t.signature;
+  document.querySelector('.footer p:nth-of-type(1)').textContent=t.footer1;
+  document.querySelector('.footer p:nth-of-type(2)').textContent=t.footer2;
+  window.currentLanguage=code;
+  window.currentBlessings=t.blessings;
+}
+$('languageSelect').addEventListener('change',e=>setLanguage(e.target.value));
+setLanguage('en');
+
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body></html>
